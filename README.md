@@ -6,9 +6,6 @@ A personal portfolio website to showcase my skills, projects, and experience as 
 
 [View Website](https://your-portfolio-link.com) <!-- Replace with your actual link -->
 
-## 📸 Preview
-
-![Portfolio Preview](preview.png) <!-- Replace with actual image if available -->
 
 ## 🚀 Features
 
