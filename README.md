@@ -4,7 +4,7 @@ A personal portfolio website to showcase my skills, projects, and experience as 
 
 ## 🌐 Live Preview
 
-[View Website](https://your-portfolio-link.com) <!-- Replace with your actual link -->
+[View Website](https://681b836d1cd2de5e217fd124--stirring-longma-ee72df.netlify.app/) <!-- Replace with your actual link -->
 
 
 ## 🚀 Features
