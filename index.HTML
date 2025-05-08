@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ahmad Bader</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#7e42a7"></li>
+            <!-- background: linear-gradient(to right, #008baa, #7e42a7, #6600c5,
+            #6070fd, #2a46ff, #0099ff, #008ead); -->
+
+            <li data-color="#008baa"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03A9F4"></li>
+            <li data-color="#4CAF50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- End Settings Box -->
+
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".home">
+        <div class="tooltip">Home</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Projects</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".services">
+        <div class="tooltip">services</div>
+      </div>
+      <div class="bullet" data-section="#contact">
+        <div class="tooltip">Contact</div>
+      </div>
+    </div>
+    <!-- End Nav Bullets -->
+
+    <!-- Start Landing Page -->
+    <div class="landing-page home" id="home">
+      <div class="header-area">
+        <div class="logo">AHMAD</div>
+        <div class="links-container">
+          <ul class="links">
+            <li><a href="#" data-section=".home">Home</a></li>
+            <li><a href="#Skills" data-section=".skills">Skills</a></li>
+            <li><a href="#" data-section=".gallery">Projects</a></li>
+            <li><a href="#" data-section=".timeline">Timeline</a></li>
+            <li><a href="#" data-section=".services">services</a></li>
+            <li><a href="#" data-section="#contact">Contact</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <div class="hero">
+        <section class="hero">
+          <div class="hero-info autoBlur">
+            <div class="hero-info-title">
+              <i class="bx bxl-sketch"></i>
+              Full Stack Developer Protfolio
+            </div>
+            <h1>
+              Providing <span class="gredient">the best</span> Project
+              <span class="gredient">Experience</span>
+            </h1>
+            <p>
+              I'm a Full Stack Developer with experience in website, mobile, and
+              software development. Check out my projects and skills.
+            </p>
+            <button>
+              <a
+                href="Ahmad Bader CV.pdf"
+                download
+                class="download-btn"
+                style="text-decoration: none; color: lightgray"
+              >
+                <i class="bx bxs-download"></i> Download My CV
+              </a>
+            </button>
+          </div>
+          <div class="hero-vid-box">
+            <video
+              class="autoBlur"
+              autoplay
+              loop
+              muted
+              plays-inline
+              src="imgs/hero-video.mp4"
+              type="video/mp4"
+            ></video>
+          </div>
+          <div class="scroll-down" onclick="location.href='#Skills'"></div>
+        </section>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+
+    <!-- Start Our Skills -->
+    <div class="skills" id="Skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-box fidenRight">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box fidenRight">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box fidenRight">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box fidenRight">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box fidenRight">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box fidenRight">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills -->
+
+    <!-- Start Gallery -->
+    <div class="gallery" id="gallery">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="images-box">
+          <img src="imgs/TODOAPP.png" alt="To Do APP" />
+          <img src="imgs/harer.png" alt="Hareer Shop" />
+          <img src="imgs/codequest.png" alt="CodeQuest" />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+
+    <!-- Start Timeline -->
+    <div class="timeline">
+      <div class="container">
+        <h2>Timeline</h2>
+        <div class="timeline-content autoDisplay">
+          <div class="year">2025</div>
+          <div class="left">
+            <div class="content">
+              <h3>Internship at Software Company</h3>
+              <p>
+                Started a full-stack web development internship in Amman,
+                focusing on PHP and Laravel. Contributed to a food delivery
+                application using modern technologies.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+          <div class="clearfix"></div>
+
+          <div class="year">2024</div>
+          <div class="right">
+            <div class="content">
+              <h3>Graduated in Computer Science</h3>
+              <p>
+                Successfully graduated with a degree in Computer Science.
+                Decided to focus on becoming a full-stack web developer and
+                started learning modern frameworks.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+
+    <!-- Start services -->
+    <div class="services">
+      <h2>Services</h2>
+      <div class="container">
+        <div class="feat-box autoDisplay">
+          <img src="imgs/web-design.svg" alt="" />
+          <h4>Web Design</h4>
+          <p>
+            We create visually appealing and user-friendly web designs tailored
+            to your business goals.
+          </p>
+        </div>
+        <div class="feat-box autoDisplay">
+          <img src="imgs/programming.svg" alt="" />
+          <h4>Websites</h4>
+          <p>
+            From landing pages to full business sites, we build high-performance
+            websites that convert.
+          </p>
+        </div>
+        <div class="feat-box autoDisplay">
+          <img src="imgs/mobile-app.svg" alt="" />
+          <h4>Web Applications</h4>
+          <p>
+            We develop scalable and secure web apps customized for your specific
+            needs and operations.
+          </p>
+        </div>
+        <div class="feat-box autoDisplay">
+          <img src="imgs/advertising.svg" alt="" />
+          <h4>Consultancy</h4>
+          <p>
+            Need guidance? Our experts help you plan and execute successful
+            digital projects.
+          </p>
+        </div>
+        <div class="feat-box autoDisplay">
+          <img src="imgs/hosting-icon.svg" alt="" />
+          <h4>Hosting Services</h4>
+          <p>
+            Fast, reliable, and secure hosting to keep your site online and
+            performing well.
+          </p>
+        </div>
+        <div class="feat-box autoDisplay">
+          <img src="imgs/graphic-design.svg" alt="" />
+          <h4>Web Development</h4>
+          <p>
+            We build robust websites and systems using modern technologies and
+            best practices.
+          </p>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End services -->
+
+    <section class="contact-section" id="contact">
+      <h2>Social Contact</h2>
+      <div class="social-container">
+        <div class="contact-box">
+          <div class="icon"><i class="bx bxs-location-plus"></i></div>
+          <h4>ADDRESS</h4>
+          <p>Jordan - Amman</p>
+        </div>
+        <div class="contact-box">
+          <div class="icon"><i class="bx bxs-phone"></i></div>
+          <h4>CONTACT NUMBER</h4>
+          <p>+962 7829 10445</p>
+        </div>
+        <div class="contact-box">
+          <div class="icon"><i class="bx bxs-envelope"></i></div>
+          <h4>EMAIL ADDRESS</h4>
+          <p>ahmadbader.n@gmail.com</p>
+        </div>
+        <div class="contact-box">
+          <div class="icon">
+            <a href="https://github.com/AhmadNaser001"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+          <h4>GITHUB</h4>
+          <p>Ahmadbader001</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Footer -->
+    <div class="footer">© 2025 Ahmad Bader. All Rights Reserved.</div>
+    <!-- End Footer -->
+
+    <script src="js/master.js"></script>
+  </body>
+</html>
